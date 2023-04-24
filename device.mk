@@ -42,17 +42,12 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-   SonyPDX203SystemUIRes 
+    SonyPDX203SystemUIRes \
+    SonyPDX203FrameworksRes
 
 # HDR
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libhdr_somc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/libhdr_somc.xml
-
-# NFC
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    $(LOCAL_PATH)/nfc/libnfc-nxp-typef.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-typef.conf \
-    $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
