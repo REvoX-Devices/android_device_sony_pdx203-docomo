@@ -15,7 +15,7 @@ fi
 set -e
 
 # Required!
-export DEVICE=pdx203
+export DEVICE=pdx203_docomo
 export DEVICE_COMMON=sm8250-common
 export VENDOR=sony
 

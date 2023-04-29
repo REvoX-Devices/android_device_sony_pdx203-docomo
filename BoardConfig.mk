@@ -17,7 +17,7 @@
 # Inherit from sony sm8250-common
 -include device/sony/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/pdx203
+DEVICE_PATH := device/sony/pdx203_docomo
 
 # Display
 TARGET_SCREEN_DENSITY := 420
@@ -40,4 +40,4 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
--include vendor/sony/pdx203/BoardConfigVendor.mk
+-include vendor/sony/pdx203_docomo/BoardConfigVendor.mk

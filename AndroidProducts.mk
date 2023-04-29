@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_pdx203.mk
+    $(LOCAL_DIR)/evolution_pdx203_docomo.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_pdx203-user \
-    evolution_pdx203-userdebug \
-    evolution_pdx203-eng
+    evolution_pdx203_docomo-user \
+    evolution_pdx203_docomo-userdebug \
+    evolution_pdx203_docomo-eng
