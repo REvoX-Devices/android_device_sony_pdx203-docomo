@@ -27,7 +27,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 IS_PHONE := true
 
 PRODUCT_NAME := evolution_pdx203_docomo
-PRODUCT_DEVICE := pdx203_docomo
+PRODUCT_DEVICE := pdx203
 PRODUCT_MANUFACTURER := docomo
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := SO-51A
